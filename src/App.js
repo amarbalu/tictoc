@@ -2,7 +2,19 @@ import React from 'react';
 import './App.css';
 
 
-  
+//     console.log(document.querySelector('.menu').getBoundingClientRect().height);
+//       var top =document.querySelector('.menu').getBoundingClientRect().bottom
+//   window.addEventListener('scroll', function() {
+//       if (window.pageYOffset >= top) {
+//         document.querySelector('.menu1').style.position = 'fixed';
+//         document.querySelector('.menu1').style.top = '65px';
+         
+//       } else {
+//         document.querySelector('.menu1').style.position = 'static';
+//         document.querySelector('.menu1').style.top = '';
+//       }
+//   });
+
 class App extends React.Component {
   constructor(props){
     super(props);
